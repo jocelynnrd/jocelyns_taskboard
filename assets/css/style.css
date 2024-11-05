@@ -1,5 +1,5 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   background-color: #feb9d9;
   color: #5e5e5e;
@@ -28,10 +28,10 @@ body {
   padding: 8px;
   margin: 10px 0;
   border-radius: 4px;
+  z-index: 1000; /* Ensure it's on top of other elements */
 }
 
 .task-card:hover {
   background: #ffc3cf; /* Slightly darker on hover */
   cursor: pointer;
 }
-
